@@ -1,13 +1,14 @@
 import React from "react";
+
+import HomePage from "./pages/home";
+
 export default class Routes {
-
   apply(routeHandler) {
-
     const routes = [
       {
         path: "/",
         exact: true,
-        component: () => <h1>Hello, World!</h1>,
+        component: import("./pages/home"),
       },
     ];
 

@@ -10,11 +10,15 @@
     "name": "Rex Rapheal",
     "name2": "Manjula Dube"
   },
-  "contributor":{
+  "contributor": {
     "name": "Manjula Dube"
-  },  
+  },
   "license": "MIT",
   "devDependencies": {
     "@pawjs/pawjs": "^2.1.10"
+  },
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-router-dom": "^4.3.1"
   }
 }
