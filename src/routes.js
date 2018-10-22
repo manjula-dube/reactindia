@@ -1,6 +1,4 @@
-import React from "react";
-
-import HomePage from "./pages/home";
+/*eslint-disable */
 
 export default class Routes {
   apply(routeHandler) {
@@ -9,11 +7,25 @@ export default class Routes {
         path: "/",
         exact: true,
         component: import("./pages/home"),
+        layout: import("./components/layout/default"),
+      },
+      {
+        path: "/contact",
+        exact: true,
+        component: import("./pages/contact"),
+        layout: import("./components/layout/default"),
+      },
+      {
+        path: "/about",
+        exact: true,
+        component: import("./pages/about"),
+        layout: import("./components/layout/default"),
       },
       {
         path: "/talks",
         exact: true,
-        component: import("./pages/home"),
+        component: import("./pages/talks"),
+        layout: import("./components/layout/default"),
       },
     ];
 
