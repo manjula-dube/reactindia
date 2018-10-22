@@ -8,8 +8,11 @@
   },
   "author": {
     "name": "Rex Rapheal",
-    "url": "https://github.com/juicycleff"
+    "name2": "Manjula Dube"
   },
+  "contributor":{
+    "name": "Manjula Dube"
+  },  
   "license": "MIT",
   "devDependencies": {
     "@pawjs/pawjs": "^2.1.10"
