@@ -10,6 +10,11 @@ export default class Routes {
         exact: true,
         component: import("./pages/home"),
       },
+      {
+        path: "/talks",
+        exact: true,
+        component: import("./pages/home"),
+      },
     ];
 
     routeHandler.hooks.initRoutes.tapPromise("AppRoutes", async () => {
