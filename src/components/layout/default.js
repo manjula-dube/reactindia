@@ -9,16 +9,20 @@ export default class Layout extends Component {
     children: PropTypes.any, // eslint-disable-line
   }
 
+  static onWindowChange() {
+    // TODO:
+  }
+
   render() {
     const { children } = this.props;
     return (
-      <>
+      <div>
         <Header key="header" />
         <main key="content">
           {children}
         </main>
         <Footer />
-      </>
+      </div>
     );
   }
 }

@@ -1,8 +1,10 @@
 import React from "react";
+import { toggleLeft } from "@crystallize/react-layout";
 
 const Header = () => (
   <nav key="header">
-    Header
+    <button onClick={() => toggleLeft} type="button">Toggle Left</button>
+    <p>Header</p>
   </nav>
 );
 
