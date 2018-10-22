@@ -1,0 +1,17 @@
+{
+  "name": "react-india",
+  "version": "1.0.0",
+  "description": "React India First International Conference",
+  "scripts": {
+    "start": "pawjs --env=development start",
+    "build": "pawjs --env=production build"
+  },
+  "author": {
+    "name": "Rex Rapheal",
+    "url": "https://github.com/juicycleff"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@pawjs/pawjs": "^2.1.10"
+  }
+}
