@@ -7,6 +7,30 @@
     "quotes": [
       "error",
       "double"
-    ]
+    ],
+    "camelcase": 0,
+    "prettier/prettier": "error",
+    "no-plusplus": 0,
+    "no-use-before-define": ["error", "nofunc"],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["jest*.js", "__tests__/**/*.js"]
+      }
+    ],
+    "prefer-arrow-callback": [
+      "error",
+      {
+        "allowNamedFunctions": true
+      }
+    ],
+    "import/prefer-default-export": false,
+    "jsx-a11y/anchor-is-valid": false,
+    "react/jsx-filename-extension": false,
+    "react/react-in-jsx-scope": false,
+    "react/prop-types": "skipUndeclared",
+    "react/forbid-prop-types": false,
+    "react/require-default-props": false,
+    "react/prefer-stateless-function": "ignorePureComponents"
   }
 }

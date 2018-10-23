@@ -8,7 +8,7 @@ export default class HomePage extends Component {
   render() {
     return (
       <div>
-        <h1 className="d-sm-none">React Home</h1>
+        <h1 className="d-sm-none">React India Home</h1>
       </div>
     );
   }

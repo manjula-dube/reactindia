@@ -18,13 +18,16 @@
     "@pawjs/image-optimizer": "^2.1.5",
     "@pawjs/pawjs": "^2.1.10",
     "@pawjs/sass": "^2.1.7",
+    "@pawjs/srcset": "^2.0.1",
     "pwa-srcset-loader": "^2.0.2"
   },
   "dependencies": {
     "@crystallize/react-layout": "^1.8.0",
+    "polished": "^2.3.0",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-router-dom": "^4.3.1",
-    "styled-components": "^4.0.2"
+    "styled-components": "^4.0.2",
+    "styled-is": "^1.1.5"
   }
 }

@@ -44,7 +44,6 @@ export default class Routes {
       title: 'React India | First React Conference',
       site_name: 'React India',
       description: 'Description.',
-      image: DummyLogo,
       twitter: {
         site: '@reactindia',
         creator: '@reactindia',
