@@ -19,9 +19,6 @@ export default class Layout extends Component {
       <div className="uk-width-1-1 uk-position-relative">
         {children}
         <Footer />
-        <Footer />
-        <Footer />
-        <Footer />
       </div>
     );
   }
