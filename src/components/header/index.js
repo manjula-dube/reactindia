@@ -21,7 +21,7 @@ const Header = () => (
           </ul>
         </div>
         <div className="uk-navbar-center">
-          <a href="" class="uk-navbar-item uk-logo">REACT INDIA</a>
+          <a href="" class="uk-navbar-item uk-logo">REACT INDIA 2019</a>
         </div>
         <div className="uk-navbar-right">
           <ul className="uk-navbar-nav">
