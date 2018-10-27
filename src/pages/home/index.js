@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Hero } from "../../components/home";
 import Header from "../../components/header";
+import Section from "../../components/section";
 
 export default class HomePage extends Component {
   static stop() {
@@ -9,7 +10,7 @@ export default class HomePage extends Component {
 
   render() {
     return (
-      <div class="uk-position-relative" style={{ height: '100vh'}}>
+      <div className="uk-position-relative" style={{ height: '100vh'}}>
         <Header key="header" />
         <Hero />
       </div>

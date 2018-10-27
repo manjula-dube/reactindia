@@ -7,13 +7,13 @@ const Header = () => (
         <div className="uk-navbar-left">
           <ul className="uk-navbar-nav">
               <li className="uk-active">
-                <a href="#">ABOUT</a>
+                <a href="#about">ABOUT</a>
               </li>
               <li>
-                  <a href="#">SPEAKERS</a>
+                  <a href="#speakers">SPEAKERS</a>
               </li>
               <li>
-                <a href="#">SCHEDULE</a>
+                <a href="#schedule">SCHEDULE</a>
               </li>
               <li>
                 <a href="#">WORKSHOPS</a>

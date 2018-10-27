@@ -3,3 +3,12 @@
 @import './scss/mixins.scss';
 @import './scss/uikit-theme.scss';
 // site.scss
+
+// custom css
+@import './app.scss';
+.mn-Section--box {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
