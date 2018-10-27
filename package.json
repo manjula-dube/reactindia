@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "@crystallize/react-layout": "^1.8.0",
+    "google-map-react": "^1.0.9",
     "polished": "^2.3.0",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",

@@ -1,8 +1,7 @@
 import React from "react";
-import { toggleLeft } from "@crystallize/react-layout";
 
 const Header = () => (
-  <div className="uk-position-bottom">
+  <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
     <nav className="uk-navbar-container uk-dark uk-padding-vertical uk-padding-remove-horizontal" data-uk-navbar>
         <div className="uk-navbar-left">
           <ul className="uk-navbar-nav">
