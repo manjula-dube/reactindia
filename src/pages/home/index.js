@@ -1,7 +1,8 @@
-import React, { Component } from "react";
-import { Hero } from "../../components/home";
-import Header from "../../components/header";
-import Section from "../../components/section";
+import React, { Component } from "react"
+import { Hero } from "../../components/home"
+import Header from "../../components/header"
+import Section from "../../components/section"
+import { Speakers } from "../../components/speakers"
 
 export default class HomePage extends Component {
   static stop() {
@@ -10,10 +11,11 @@ export default class HomePage extends Component {
 
   render() {
     return (
-      <div className="uk-position-relative" style={{ height: '100vh'}}>
+      <div className="uk-position-relative" style={{ height: "100vh" }}>
         <Header key="header" />
         <Hero />
+        <Speakers />
       </div>
-    );
+    )
   }
 }

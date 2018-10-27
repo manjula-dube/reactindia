@@ -1,15 +1,11 @@
-import React from "react";
+import React from "react"
+import SpeakerCard from "./SpeakerCard"
+import data from "./data"
 
-export const Hero = () => (
-  <div class="uk-child-width-expand@s uk-text-center" uk-grid>
-    <div>
-        <div class="uk-card uk-card-default uk-card-body">Item</div>
-    </div>
-    <div>
-        <div class="uk-card uk-card-default uk-card-body">Item</div>
-    </div>
-    <div>
-        <div class="uk-card uk-card-default uk-card-body">Item</div>
-    </div>
-</div>
-);
+export const Speakers = () => (
+  <div uk-grid>
+    {data.map(speaker => (
+      <SpeakerCard {...speaker} />
+    ))}
+  </div>
+)

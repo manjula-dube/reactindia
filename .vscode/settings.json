@@ -1,0 +1,51 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+	// Place your settings in this file to overwrite default and user settings.
+	"editor.formatOnSave": true, // Switch for lint error fix
+	"editor.tabSize": 4,
+	"editor.renderIndentGuides": true,
+	"editor.renderWhitespace": "boundary",
+	"editor.insertSpaces": false,
+	"editor.detectIndentation": true,
+	"editor.useTabStops": true,
+	"prettier.tabWidth": 4,
+	"prettier.semi": false,
+	"prettier.printWidth": 120,
+	"prettier.useTabs": true,
+	"prettier.trailingComma": "es5",
+	"prettier.eslintIntegration": true,
+	"prettier.jsxBracketSameLine": false,
+	"flow.useNPMPackagedFlow": true,
+	"javascript.validate.enable": false,
+	"javascript.format.enable": false,
+	"search.exclude": {
+		"**/coverage": true,
+		"**/coverages": true,
+		"**/bower_components": true,
+		"**/.history": true,
+		"**/build-src": true,
+		"**/.happypack": true,
+		"**/build": true,
+		"**/dist": true,
+		"**/node_modules": true
+	},
+	"files.exclude": {
+		"**/.git": true,
+		"**/.svn": true,
+		"**/.hg": true,
+		"**/.DS_Store": true,
+		"**/bower_components": true,
+		"**/jspm_packages": true,
+		"**/.history": true,
+		"**/.happypack": true
+	},
+	"files.watcherExclude": {
+		"**/.git/**": true,
+		"**/node_modules/**": true
+	},
+	"eslint.run": "onSave",
+	"eslint.autoFixOnSave": true,
+	"eslint.options": {
+		"configFile": "./.eslintrc"
+	}
+}
