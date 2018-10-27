@@ -16,11 +16,11 @@ export default class Layout extends Component {
   render() {
     const { children } = this.props;
     return (
-      <div>
-        <Header key="header" />
-        <main key="content">
-          {children}
-        </main>
+      <div className="uk-width-1-1 uk-position-relative">
+        {children}
+        <Footer />
+        <Footer />
+        <Footer />
         <Footer />
       </div>
     );

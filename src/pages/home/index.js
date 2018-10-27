@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import { Hero } from "../../components/home";
+import Header from "../../components/header";
 
 export default class HomePage extends Component {
   static stop() {
@@ -7,8 +9,9 @@ export default class HomePage extends Component {
 
   render() {
     return (
-      <div>
-        <h1 className="d-sm-none">React India Home</h1>
+      <div class="uk-position-relative" style={{ height: '100vh'}}>
+        <Header key="header" />
+        <Hero />
       </div>
     );
   }

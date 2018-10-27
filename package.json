@@ -28,6 +28,7 @@
     "react": "^16.5.2",
     "react-router-dom": "^4.3.1",
     "styled-components": "^4.0.2",
-    "styled-is": "^1.1.5"
+    "styled-is": "^1.1.5",
+    "uikit": "^3.0.0-rc.20"
   }
 }
