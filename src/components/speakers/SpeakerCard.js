@@ -1,24 +1,26 @@
 import React from "react"
 import styled from "styled-components"
 
+const dummyImage = "https://image.ibb.co/feBaLq/manjula.png"
+
 const SpeakerCard = props => (
-  <div class="speaker">
-    <div class="sk-img">
-      <div class="img">
-        <img class="img-fluid" src={`/assets/images/speakers/${props.img}`} alt="" />
-        <div class="overlay d-flex justify-content-center">
-          <div class="slink">
+  <div className="speaker" key={props.name}>
+    <div className="sk-img">
+      <div className="img">
+        <img className="img-fluid" src={`${dummyImage}`} alt={`${props.name}`} />
+        <div className="overlay d-flex justify-content-center">
+          <div className="slink">
             <a href="#">
-              <i class="fa fa-facebook" />
-              <i class="fa fa-twitter" />
-              <i class="fa fa-linkedin" />
-              <i class="fa fa-google-plus" />
+              <i className="fa fa-facebook" />
+              <i className="fa fa-twitter" />
+              <i className="fa fa-linkedin" />
+              <i className="fa fa-google-plus" />
             </a>
           </div>
         </div>
       </div>
     </div>
-    <div class="sk-content">
+    <div className="sk-content">
       <a>
         <h4>{props.name}</h4>
       </a>

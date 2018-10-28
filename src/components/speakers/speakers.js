@@ -3,7 +3,7 @@ import SpeakerCard from "./SpeakerCard"
 import data from "./data"
 
 export const Speakers = () => (
-  <div uk-grid>
+  <div>
     {data.map(speaker => (
       <SpeakerCard {...speaker} />
     ))}
