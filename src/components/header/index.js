@@ -1,9 +1,9 @@
 import React from "react";
 
 const Header = () => (
-  <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent uk-light; top: 200">
+  <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; uk-light; top: 200">
     <nav className="uk-navbar-container uk-dark uk-padding-vertical uk-padding-remove-horizontal" data-uk-navbar>
-        <div className="uk-navbar-left">
+        <div className="uk-navbar-right">
           <ul className="uk-navbar-nav">
               <li className="uk-active">
                 <a href="#about">ABOUT</a>
@@ -17,14 +17,7 @@ const Header = () => (
               <li>
                 <a href="#">WORKSHOPS</a>
               </li>
-          </ul>
-        </div>
-        <div className="uk-navbar-center">
-          <a href="" class="uk-navbar-item uk-logo">REACT INDIA 2019</a>
-        </div>
-        <div className="uk-navbar-right">
-          <ul className="uk-navbar-nav">
-            <li className="uk-active">
+              <li className="uk-active">
               <a href="#">SPONSORS</a>
             </li>
             <li>
@@ -37,7 +30,7 @@ const Header = () => (
               <a href="#">CONTACT</a>
             </li>
           </ul>
-      </div>
+        </div>
     </nav>
   </div>
 );
